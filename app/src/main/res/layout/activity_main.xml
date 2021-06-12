@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_color"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/main_toolbar" />
+
+    <TextView
+        android:id="@+id/assignment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_sample"
+        android:drawableLeft="@android:drawable/stat_notify_chat"
+        android:drawablePadding="10dp"
+        android:padding="40dp"
+        android:text="Assignments"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:drawableTint="#F1F2FA" />
+
+    <TextView
+        android:id="@+id/quizzes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_sample"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+        android:padding="40dp"
+        android:text="Quizzes"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_sample"
+        android:drawableLeft="@android:drawable/ic_menu_compass"
+        android:padding="40dp"
+        android:text="Food Expenses"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/addWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_sample"
+        android:drawableLeft="@android:drawable/ic_menu_add"
+        android:padding="40dp"
+        android:text="Add Work"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:drawableTint="#FFFEFE" />
+
+</LinearLayout>

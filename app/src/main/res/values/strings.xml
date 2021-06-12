@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assignment Manager</string>
+    <string name="title_activity_navigation_menu">NavigationMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Assignments and Quiz Alerts</string>
+    <string name="nav_header_subtitle">Student Helper App</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_assignments">Assignments</string>
+    <string name="menu_quizzes">Quizzes</string>
+    <string name="menu_expenditures">Expenditures</string>
+    <array name="types">
+        <item>Assignment</item>
+        <item>Quiz</item>
+    </array>
+</resources>
